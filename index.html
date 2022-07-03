@@ -10,21 +10,33 @@
 </head>
 <body>
     <h1 id="title">TIC TAC TOE</h1>
-    <div>Player 1 - X. Player 2 - O.</div>
-    <button id="start">Start Game</button>
-    <button id="end">End Game</button>
-    <!-- <div id="player-input">
+    <div id="player-input">
         <div id="player-1">
-            <label for="player-1-name"> </label>
+            <label for="player-1-name"> Player 1 Name: </label>
             <input type="text" id="player-1-name" >
-    
+            
+            <label for="marker-1-choice"> Marker: </label>
+            <select name="marker-1-choice" class="marker-1-choice"> 
+                <option value="X" class="X">X</option> 
+                <option value="O" class="O">O</option> 
+            </select>   
         </div>
         <div id="player-2">
-            <label for="player-2-name"></label>
+            <label for="player-2-name"> Player 2 Name:</label>
             <input type="text" id="player-2-name">
-        </div> -->
+
+            <label for="marker-2-choice">Marker: </label>
+            <select name="marker-2-choice" class="marker-2-choice"> 
+                <option value="X" class="X">X</option> 
+                <option value="O" class="O">O</option> 
+            </select>  
+        </div>
+    <button id="start">Start Game</button>
+    <button id="end">End Game</button>
     </div>
+    <div id="stuff"></div>
     <div id="gameboard">
+        <!-- <div class="cell"></div>
         <div class="cell"></div>
         <div class="cell"></div>
         <div class="cell"></div>
@@ -32,8 +44,7 @@
         <div class="cell"></div>
         <div class="cell"></div>
         <div class="cell"></div>
-        <div class="cell"></div>
-        <div class="cell"></div>
+        <div class="cell"></div> -->
     </div>
     <div id="winner"></div>
 </body>
